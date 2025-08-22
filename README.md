@@ -142,5 +142,3 @@ This project is **patented under the Government of India**. Unauthorized reprodu
 
 
 
-Do you want me to also make a **short 300–350 characters version** (for GitHub project description section), along with this **long README**?
-
