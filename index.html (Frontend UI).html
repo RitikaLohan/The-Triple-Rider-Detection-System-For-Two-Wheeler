@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Adaptive Traffic Light Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <h1>Adaptive Traffic Light Dashboard</h1>
+  <div id="signals">
+    {% for p in phases %}
+    <div class="approach" id="approach-{{p}}">
+      <h2>{{p}} - <span class="count">0</span></h2>
+      <img src="/video/{{p}}" width="320" />
+      <div>Time left: <span class="time">--</span></div>
+    </div>
+    {% endfor %}
+  </div>
+
+<script src="/static/js/countdown.js"></script>
+</body>
+</html>
